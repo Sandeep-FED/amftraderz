@@ -1,0 +1,117 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color:white;
+}
+.nav-menu {
+    float: right;
+    list-style:none;
+    margin-top: 25px;
+}
+.nav-menu li {
+    display: inline-block;
+}
+.nav-menu li a {
+    color:black;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.hmebttn a {
+    border: grey;
+    background-color:grey;
+}
+.nav-menu li a:hover {
+    border: 1px black;
+    background-color: gray;
+}
+.heading {
+    position: top;
+    font-size: 20px;
+    color: gray;
+}
+.container {
+    position: absolute;
+    width: 2000px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container .box {
+    position: relative;
+    left: 0%;
+    width: 200px;
+    height: 150px;
+    background-color: white;
+    padding: 100px 40px 60px;
+    box-shadow: 0 15px 45px rgba(o,o,o,.1);
+}
+.container .box:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: gray;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s;
+}
+.container .box:hover:before {
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+}
+.container .box h2 {
+    position: absolute;
+    left: 0%;
+    top: 60px;
+    font-size: 4em;
+    font-weight: 800;
+    z-index: 1;
+    opacity: 0.5;
+    transition: transform 0.5s;
+}
+.container .box:hover h2 {
+    opacity: 1;
+    color: gray;
+    transform: translateY(-40px);
+}
+.container .box h3 {
+    position: absolute;
+    left: 0%;
+    top: 60px;
+    font-size: 1.5em;
+    font-weight: 800;
+    z-index: 1;
+    opacity: 0.5;
+    transition: transform 0.5s;
+}
+container .box h4 {
+    position: absolute;
+    left: 0%;
+    top: 60px;
+    font-size: 1.5em;
+    font-weight: 800;
+    z-index: 1;
+    opacity: 0.5;
+    transition: transform 0.5s;
+}
+
+.container .box p {
+    position: relative;
+    z-index: 2;
+    color: black;
+    transition: 00.5s;
+}
+.container .box:hover h3,
+.container .box p
+{
+    color: black;
+}
