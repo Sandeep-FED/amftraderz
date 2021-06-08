@@ -1,14 +1,63 @@
+/* Fonts API */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;900&family=Jost:wght@100;200;300;400;500;700;900&family=VT323:wght@100;200;300;400;500;700;900&family=Limelight:wght@100;200;300;400;500;700;900&display=swap');
+
 /* 
     Author: Sandeep p.s, Mukil Mukesh;
     Theme: Testing responsive design;
     version: 1.0;
 */ 
 
-
-/* CSS for all */
 * {
     margin: 0 0;
     padding: 0 0;
     box-sizing: border-box;
-    font-family: ;
+    font-family: Jost, Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* CSS for Body */
+header{
+    position:fixed;
+    text-shadow: 2vh;
+    top: 0; left: 0; right: 0;
+    color: #778ca3;
+    box-shadow: 0 4px 10px rgba(0,0,0,.1);
+    padding: 15px 6%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+
+}
+
+header .logo {
+    font-weight: bolder;
+    font-family: Jost;
+    font-size: 25px;
+    color: #485460;
+}
+
+
+header .navbar ul li{
+    list-style: none;
+    position: relative;
+    float: left;
+    padding: 0 10px;
+
+}
+
+header .navbar ul li a{
+
+    font-size: 20px;
+    padding: 20px;
+    color: #ff7f50;
+    display: block;
+    font-weight: bolder;
+    font-family: Poppins;
+}
+
+header .navbar ul li a:hover{
+    color: #ff6348;
+    /*background : #ced6e0;*/
 }
