@@ -3,42 +3,47 @@
 
 /* 
     Author: Sandeep p.s, Mukil Mukesh;
-    Theme: Testing responsive design;
+    Theme: Test version: Marketing Blog;
     version: 1.0;
 */ 
 
+/* CSS for DOM*/
 * {
     margin: 0 0;
     padding: 0 0;
     box-sizing: border-box;
-    font-family: Jost, Helvetica, sans-serif;
+    font-family: "Jost", Helvetica, sans-serif;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 /* CSS for Body */
+
+
+/* CSS for header */
 header{
     position:fixed;
-    text-shadow: 2vh;
+    text-shadow: 50vh;
     top: 0; left: 0; right: 0;
     color: #778ca3;
     box-shadow: 0 4px 10px rgba(0,0,0,.1);
-    padding: 15px 6%;
+    padding: 14px 6%;
     display:flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 1000;
+    z-index: 800;
 
 }
 
+/* CSS for logo */
 header .logo {
     font-weight: bolder;
     font-family: Jost;
-    font-size: 25px;
+    font-size: 35px;
     color: #485460;
 }
 
-
+/* CSS for nav menus including li alone*/
 header .navbar ul li{
     list-style: none;
     position: relative;
@@ -47,9 +52,10 @@ header .navbar ul li{
 
 }
 
+/* CSS for nav menus including all */
 header .navbar ul li a{
 
-    font-size: 20px;
+    font-size: 18px;
     padding: 20px;
     color: #ff7f50;
     display: block;
@@ -57,7 +63,29 @@ header .navbar ul li a{
     font-family: Poppins;
 }
 
+/* Css for hovering */
 header .navbar ul li a:hover{
     color: #ff6348;
     /*background : #ced6e0;*/
+}
+
+/* CSS for categories -- sub categories*/
+header .navbar ul li ul{
+    position: absolute;
+    left: 0;
+    width:200px;
+    background-color: #fff;
+    display: none;
+}
+
+/* CSS for sub categories - divider lines*/
+header .navbar ul li ul li{
+    width: 100%;
+    border-top: 0.2px solid rgba(0,0,0,.1);
+}
+
+/* CSS for subcategories -- hovering*/
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul{
+    display: initial;
 }
