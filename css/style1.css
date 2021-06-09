@@ -127,5 +127,15 @@
 {
     color: #e91e63;
     font-size: 12px;
-    transform: translate(-20px);
+    transform: translateY(-20px);
+}
+.contactform .inputbox input[type="submit"]
+{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
 }
