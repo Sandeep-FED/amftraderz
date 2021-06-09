@@ -79,9 +79,21 @@
     font-weight: 500;
     color: #0066cc;
 }
-.contacform
+.contactform
 {
     width: 40%;
     padding: 40px;
     background: #fff;
+}
+.contactform h2
+{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.contactform .inputbox
+{
+    position: relative;
+    width: 100;
+    margin-top: 10px;
 }
