@@ -94,7 +94,7 @@
 .contactform .inputbox
 {
     position: relative;
-    width: 100;
+    width: 100%;
     margin-top: 10px;
 }
 .contactform .inputbox input,
@@ -111,7 +111,7 @@
 }
 .contactform .inputbox span
 {
-    position: relative;
+    position: absolute;
     left: 0;
     padding: 5px 0;
     font-size: 16px;
@@ -119,4 +119,13 @@
     pointer-events: none;
     transition: 0.5s;
     color: #666;
+}
+.contactform .inputbox input:focus ~ span,
+.contactform .inputbox input:valid ~ span,
+.contactform .inputbox textarea:focus ~ span,
+.contactform .inputbox textarea:valid ~ span
+{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translate(-20px);
 }
