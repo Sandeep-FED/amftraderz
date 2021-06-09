@@ -25,13 +25,14 @@
 }
 .contact .content h2
 {
-    font-size: 36px;
+    font-size: 66px;
     font-weight: 500;
     color:black;
 }
 .contact .content p
-{
-    font-weight: 300;
+{ 
+    font-size: 22px;
+    font-weight: 500;
     color:honeydew;
 }
 .container
