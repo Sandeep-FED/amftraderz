@@ -101,17 +101,12 @@ section {
     flex-direction:row ;
     padding: 0px 50px;
     background:#859398;
-    background: rgba( 255, 255, 255, 0.10 );
-box-shadow: 0 8px 32px 0 rgba(9, 10, 27, 0.37);
-backdrop-filter: blur( 4px );
--webkit-backdrop-filter: blur( 5px );
-border-radius: 30px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+   
 }
 section .content {
 flex: 2;
 text-align: justify;
-padding right: 40px ;
+padding-right: 40px ;
 }
 section .content h2 {
     color: black;
