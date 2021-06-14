@@ -79,7 +79,7 @@ header .navbar ul li ul{
     width:200px;
     background-color: #fff;
     display: none;
-    opacity: 40%;
+    opacity: 80%;
     border-radius: 0.4rem;
 }
 
@@ -101,11 +101,17 @@ header .navbar ul li:hover > ul{
     text-align: center;
     margin-top: 12%;
     color: #2c3e50;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .Center-heading{
     text-align: center;
+}
+
+#solid {
+        border: 2px solid #ff3f34;
+        width: 50px;
+        display: inline-block;
 }
 
 #shrink{
