@@ -2,17 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;900&family=Jost:wght@100;200;300;400;500;700;900&family=Abel:wght@100;200;300;400;500;700;900&family=Limelight:wght@100;200;300;400;500;700;900&display=swap');
 
 /* 
-    Author: Sandeep p.s, Mukil Mukesh;
+    Author: Sandeep p.s, Mukil Mukesh, Samsudheen S;
     Theme: Test version: Marketing Blog;
     version: 1.0;
 */ 
 
-/* CSS for DOM*/
-* {
+/* CSS for all*/
+*{
     margin: 0 0;
     padding: 0 0;
     box-sizing: border-box;
-    font-family: "Jost", Helvetica, Abel;
+    font-family: "Jost", Helvetica, "Abel";
     text-decoration: none;
     text-transform: capitalize;
 }
@@ -20,8 +20,7 @@
 /* CSS for Body */
 body{
     background-color: #ffffff;
-    background-position: center;
-    background-size: cover;
+    /*background-image: url(/images/bg.jpg);*/
 
 }
 
@@ -30,8 +29,6 @@ header{
     position:fixed;
     text-shadow: 50vh;
     top: 0; left: 0; right: 0;
-    background-color:
-    background-color:#f1f2f6;
     box-shadow: 0 4px 10px rgba(0,0,0,.1);
     padding: 14px 6%;
     display:flex;
@@ -63,7 +60,7 @@ header .navbar ul li a{
 
     font-size: 19px;
     padding: 20px;
-    color: #ff7f50;
+    color: #3d3d3d;
     display: block;
     font-weight: bolder;
     font-family: Abel;
@@ -71,7 +68,7 @@ header .navbar ul li a{
 
 /* Css for hovering */
 header .navbar ul li a:hover{
-    color: #ff6348;
+    color: #ff6b6b;
     /*background : #ced6e0;*/
 }
 
@@ -82,6 +79,8 @@ header .navbar ul li ul{
     width:200px;
     background-color: #fff;
     display: none;
+    opacity: 40%;
+    border-radius: 0.4rem;
 }
 
 /* CSS for sub categories - divider lines*/
@@ -94,4 +93,26 @@ header .navbar ul li ul li{
 header .navbar ul li:focus-within > ul,
 header .navbar ul li:hover > ul{
     display: initial;
+}
+
+#main_head{
+    font-family: Poppins;
+    display: block;
+    text-align: center;
+    margin-top: 12%;
+    color: #2c3e50;
+    font-size: 60px;
+}
+
+.Center-heading{
+    text-align: center;
+}
+
+#shrink{
+    padding-top: 2%;
+}
+
+#recent-head{
+    padding-left: 3.5%;
+    margin-top: 2%;
 }
