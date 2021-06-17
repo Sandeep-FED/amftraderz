@@ -57,21 +57,21 @@
                   <img src="images/Thumb1.jfif" alt="thumbnail#1">
                 </div>
 
-                 <h3 class="post-title">Title of the post</h3>
-                 <div class="post-meta">Posted on 16th June 2021</div>
-                 
-                 <div class="post-body">
-
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    A iste beatae accusantium voluptatum temporibus ab. 
-                  </p>
-
-                  <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Dolores, eius!
-                  </p>
-
+                 <h3 class="post-title">Market view for upcoming days</h3>
+                 <div class="post-meta">Posted on 13th June 2021</div>
+                 <div class="post-body"></div>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo hic
+                    non unde reiciendis ipsa! Nesciunt officiis voluptatem, sunt
+                    labore quo praesentium repellendus earum eaque ducimus maiores
+                    illum, delectus excepturi voluptatibus.
+                    <span id="dots">...</span><span id="more"> Lorem ipsum dolor sit amet consectetur adipisicing elit. In est
+                      eos odit cupiditate tempora voluptates non distinctio
+                      reprehenderit laboriosam totam?</span></p>
+                  <button onclick="myFunction()" id="myBtn">Read more</button>
+                  
+                </div>
+              </div>
+      
 
                  </div>
                 </div>
@@ -106,29 +106,12 @@
                    </div> -->
                   </div>
              </section>
-
-            <!-- End of blog section -->
-
-            <div class="popular-posts-container">
-              <h2>Popular Posts</h2>
-
-              <div class="popular-posts">
-
-                <div class="popular post">
-                  <div class="thumbnail">
-                    <img src="" alt="Thumbnail#1">
-                    <h3 class="title">The post title</h3>
-                  </div>
-                </div>
-                <div class="popular post">
-                  <div class="thumbnail">
-                    <img src="" alt="Thumbnail#2">
-                    <h3 class="title">The post title</h3>
-                  </div>
                 </div>
 
               </div>
             </div>
+
+            <!-- End of popular posts Section -->
 
            </div>
 
@@ -137,17 +120,16 @@
 
 
 
-           <!-- footer Section Begins here 
+           <!-- footer Section Begins here -->
            <footer>
               <div class="wrapper">
                 <div class="footer-container">
                   <div class="footer-left">
-                    <img src="images/" alt="" />
+                    <img id="logo" src="images/logo.png" alt="" />
                   </div>
         
                   <div class="footer-center">
                     <h4 class="list-title">Quick Links</h4>
-        
                     <ul>
                       <li>
                         <a href="/index.html">Home</a>
@@ -189,17 +171,6 @@
               </div>
             </footer> -->
 
-            <script>
-              var scroll1 = window.pageYOffset;
-              window.onscroll = function(){
-                var scroll2 = window.pageYOffset;
-                if (scroll1 > scroll2) {
-                  document.querySelector("header").style.top ="0";
-                }else{
-                  document.querySelector("header").style.top="-100px";
-                }
-                scroll1 =scroll2;
-              }
-            </script>
+            <script src="/JS/read.js"></script>
   </body>
 </html>

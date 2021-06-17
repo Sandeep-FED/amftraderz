@@ -193,7 +193,6 @@ h2{
     margin-bottom: 24px;
 }
 
-
 /* Blog Section for CSS ends here */
 
 
@@ -210,14 +209,17 @@ h2{
 
 
 
-/* Footer section for css begins here
+/* Footer section for css begins here */
 footer {
     background: #000;
     color: #fcfcfc;
     padding: 36px;
     margin-top: 100px;
   }
-  
+  #logo {
+      width: 100px;
+      height: 100px;
+  }
   footer a {
     color: #fcfcfc;
     text-decoration: none;
@@ -263,3 +265,29 @@ footer {
   footer .footer-right p {
     margin-top: 20px;
   }
+
+
+  
+/* Read More Button */
+
+button{
+    background-color:#fab1a0;
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color: #000;
+    text-align:center;
+    transition: all 0.2s;
+    cursor:pointer;
+    }
+
+    button:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+    }
