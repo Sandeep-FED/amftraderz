@@ -30,14 +30,14 @@
 
 /* CSS for Body */
 body{
-    background-color: #ffffff;
-    /*background-image: url(/images/bg.jpg);*/
+    background:#fcfcfc;
 
 }
 
 /* CSS for header */
 header{
     position:fixed;
+    background-color: #FFFFFF;
     text-shadow: 50vh;
     top: 0; left: 0; right: 0;
     box-shadow: 0 4px 10px rgba(0,0,0,.1);
@@ -159,7 +159,7 @@ h2{
     border-radius: 10px;
     display: flex;
     align-items:center;
-    box-shadow: 0 4px 8px -3px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px -3px rgba(219, 219, 219, 0.2);
 }
 
 .blogpost-card .thumbnail-image .post-labels img{
