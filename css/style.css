@@ -46,6 +46,7 @@ header{
     align-items: center;
     justify-content: space-between;
     z-index: 800;
+    transform: all .3s;
 }
 
 /* CSS for logo */

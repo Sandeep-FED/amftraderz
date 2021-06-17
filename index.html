@@ -106,9 +106,32 @@
                    </div> -->
                   </div>
              </section>
+
+            <!-- End of blog section -->
+
+            <div class="popular-posts-container">
+              <h2>Popular Posts</h2>
+
+              <div class="popular-posts">
+
+                <div class="popular post">
+                  <div class="thumbnail">
+                    <img src="" alt="Thumbnail#1">
+                    <h3 class="title">The post title</h3>
+                  </div>
+                </div>
+                <div class="popular post">
+                  <div class="thumbnail">
+                    <img src="" alt="Thumbnail#2">
+                    <h3 class="title">The post title</h3>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
            </div>
 
-           <!-- End of blog section -->
 
 
 
@@ -165,5 +188,18 @@
                 </div>
               </div>
             </footer> -->
+
+            <script>
+              var scroll1 = window.pageYOffset;
+              window.onscroll = function(){
+                var scroll2 = window.pageYOffset;
+                if (scroll1 > scroll2) {
+                  document.querySelector("header").style.top ="0";
+                }else{
+                  document.querySelector("header").style.top="-100px";
+                }
+                scroll1 =scroll2;
+              }
+            </script>
   </body>
 </html>
