@@ -8,9 +8,35 @@ body {
     background:white;
     font-family: Arial, Helvetica, sans-serif;
 }
+<<<<<<< HEAD
 #fix{
     padding-top: 30px;
     margin-top:65%;
+=======
+.wrap {
+    width: 1152px;
+    padding: 0 0120px;
+    display:flex;
+    margin: 0 auto;
+    flex-direction: column;
+    text-align: center;
+    font-size:25px;
+    font-style: italic;
+}
+#padding-between{
+    padding-bottom: 10px;
+    font-family: cursive;
+}
+.center {
+    padding-top: 4%;
+    text-align: center;
+    position: relative;
+}
+
+#fix{
+    padding-top: 30px;
+    margin-top:50%;
+>>>>>>> 9079e1a9465a5cd36037c1ef2a63fc6c2639a61e
     text-align: center;
     font-family: cursive;
     font-size: 45px;
@@ -70,7 +96,10 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     left: 50%;
     transform: translateX(-50%);
     background: white;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9079e1a9465a5cd36037c1ef2a63fc6c2639a61e
 }
 .team .team_member .team_img img {
     width: 100px;
@@ -92,6 +121,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     word-spacing: 2px;
     text-transform: capitalize;
 }
+<<<<<<< HEAD
 section {
     width: 120vh;
     min-height: 50vh;
@@ -120,3 +150,55 @@ section .content h4{
    font-family:'Courier New', Courier, monospace
 }
     
+=======
+
+/* .content { 
+    margin-top: 10%;
+    font-size: 22px;
+    width: 100vw;
+    padding: 30px 0;
+
+}*/
+#chnge {
+    padding-top: 10px;
+    margin-top:10%;
+    text-align: center;
+    font-size: 40px; 
+    font-family:cursive;  
+}
+.founder {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.n {
+    text-align: center;
+    padding-left: 104%;
+    margin: 3% auto;
+    font-size:  20px;
+    
+}
+#border{
+    border-radius: 50%;
+}
+.founder_img {
+    width: 100px;
+    height: 50px;
+    border-radius: 20%;
+    position: absolute;
+     margin-left: 400px;
+     margin-top:135px
+}
+.inner-container {
+width: 55%;
+float: right;
+background-color: white;
+padding: 140px;
+margin-top: 0px;
+margin-bottom: 0px;
+font-size: 25px;
+font-style: italic;
+}
+
+
+     
+>>>>>>> 9079e1a9465a5cd36037c1ef2a63fc6c2639a61e
