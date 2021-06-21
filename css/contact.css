@@ -17,6 +17,7 @@
     flex-direction: column;
     background: url(/images/bg.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .contact .content
 {
@@ -25,15 +26,20 @@
 }
 .contact .content h2
 {
-    font-size: 66px;
-    font-weight: 500;
-    color:black;
+    font-size: 76px;
+    text-shadow: 25px;
+    font-weight: bolder;
+    /*color:#0066cc;*/
+    color: #1e272e;
+
 }
 .contact .content p
 { 
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
-    color:honeydew;
+    color: #1e272e;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-style: italic;
 }
 .container
 {
@@ -77,8 +83,8 @@
 }
 .container .contactInfo .box .text h3
 {
-    font-weight: 500;
-    color: #0066cc;
+    font-weight: bold;
+    color: #064d94;
 }
 .contactform
 {
@@ -135,8 +141,10 @@
     width: 100px;
     background: #00bcd4;
     color: #fff;
-    border: none;
+    border:none;
     cursor: pointer;
     padding: 10px;
     font-size: 18px;
+    border-radius: 20px;
+    margin-left: 170px;
 }
