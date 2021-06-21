@@ -90,7 +90,6 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     left: 50%;
     transform: translateX(-50%);
     background: white;
-
 }
 .team .team_member .team_img img {
     width: 100px;
@@ -112,6 +111,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     word-spacing: 2px;
     text-transform: capitalize;
 }
+
 /* .content { 
     margin-top: 10%;
     font-size: 22px;
