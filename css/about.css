@@ -1,5 +1,4 @@
-*
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -68,11 +67,11 @@ body {
     position: relative;
     border-radius: 20%;
     background: rgba( 255, 255, 255, 0.10 );
-box-shadow: 0 8px 32px 0 rgba(9, 10, 27, 0.37);
-backdrop-filter: blur( 4px );
--webkit-backdrop-filter: blur( 5px );
-border-radius: 30px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+    box-shadow: 0 8px 32px 0 rgba(9, 10, 27, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 30px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .team .team_member h3 {
     color:black;
@@ -129,9 +128,9 @@ section {
    
 }
 section .content {
-flex: 2;
-text-align: justify;
-padding-right: 40px ;
+    flex: 2;
+    text-align: justify;
+    padding-right: 40px ;
 }
 section .content h2 {
     color: black;
@@ -179,18 +178,17 @@ section .content h4{
     height: 50px;
     border-radius: 20%;
     position: absolute;
-     margin-left: 400px;
-     margin-top:135px
+    margin-left: 400px;
+    margin-top:135px
 }
 .inner-container {
-width: 55%;
-float: right;
-background-color: white;
-padding: 140px;
-margin-top: 0px;
-margin-bottom: 0px;
-font-size: 25px;
-font-style: italic;
+    width: 55%;
+    float: right;background-color: white;
+    padding: 140px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 25px;
+    font-style: italic;
 }
 
 
