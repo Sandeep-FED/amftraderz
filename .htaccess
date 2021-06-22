@@ -1,3 +1,4 @@
+RewriteEngine on
 
 # Remove .html (or htm) from visible URL (permanent redirect)
 RewriteCond %{REQUEST_URI} ^/(.+)\.html?$ [nocase]
