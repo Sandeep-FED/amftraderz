@@ -8,11 +8,10 @@ body {
     background:white;
     font-family: Arial, Helvetica, sans-serif;
 }
-<<<<<<< HEAD
+
 #fix{
     padding-top: 30px;
     margin-top:65%;
-=======
 .wrap {
     width: 1152px;
     padding: 0 0120px;
@@ -36,7 +35,6 @@ body {
 #fix{
     padding-top: 30px;
     margin-top:50%;
->>>>>>> 9079e1a9465a5cd36037c1ef2a63fc6c2639a61e
     text-align: center;
     font-family: cursive;
     font-size: 45px;
@@ -96,10 +94,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     left: 50%;
     transform: translateX(-50%);
     background: white;
-<<<<<<< HEAD
 
-=======
->>>>>>> 9079e1a9465a5cd36037c1ef2a63fc6c2639a61e
 }
 .team .team_member .team_img img {
     width: 100px;
@@ -121,7 +116,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     word-spacing: 2px;
     text-transform: capitalize;
 }
-<<<<<<< HEAD
+    
 section {
     width: 120vh;
     min-height: 50vh;
@@ -150,7 +145,6 @@ section .content h4{
    font-family:'Courier New', Courier, monospace
 }
     
-=======
 
 /* .content { 
     margin-top: 10%;
@@ -201,4 +195,3 @@ font-style: italic;
 
 
      
->>>>>>> 9079e1a9465a5cd36037c1ef2a63fc6c2639a61e
