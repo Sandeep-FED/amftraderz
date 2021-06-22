@@ -116,20 +116,9 @@ body {
     word-spacing: 2px;
     text-transform: capitalize;
 }
-    
-section {
-    width: 120vh;
-    min-height: 50vh;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    flex-direction:row ;
-    padding: 0px 50px;
-    background:#859398;
-   
-}
+
 section .content {
-    flex: 2;
+    flex: 2;a
     text-align: justify;
     padding-right: 40px ;
 }
@@ -191,5 +180,3 @@ section .content h4{
     font-size: 25px;
     font-style: italic;
 }
-
-     
