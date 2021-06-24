@@ -148,3 +148,23 @@
     border-radius: 20px;
     margin-left: 170px;
 }
+@media (max-width: 991px)
+{
+    .contact
+    {
+        padding: 50px;
+    }
+    .container
+    {
+        flex-direction: column;
+    }
+    .container .contactInfo
+    {
+        margin-bottom: 40px;
+    }
+    .container .contactInfo,
+    .contactform
+    {
+        width: 100%;
+    }
+}
