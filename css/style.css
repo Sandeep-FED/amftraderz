@@ -9,6 +9,13 @@
 */ 
 
 /* CSS for all*/
+.logo{
+    font-family: "Jost";
+    font-size: 35px;
+    font-weight:bolder;
+    color: #485460;
+    padding-left:3%;
+}
 
 *{
     margin: 0 0;
@@ -29,44 +36,33 @@
     margin-bottom:20px
 }
 
+.nav-item{
+    list-style:none;
+}
+
+a{
+    text-decoration:none;
+    font-family: "Poppins";
+    color: black;
+}
+
+
 /* CSS for Body */
 body{
     background:#fcfcfc;
 }
 
 /* CSS for header */
-header{
-    position:fixed;
-    background-color: #FFFFFF;
-    text-shadow: 50vh;
-    top: 0; left: 0; right: 0;
-    box-shadow: 0 4px 10px rgba(0,0,0,.1);
-    padding: 14px 6%;
-    display:flex;
-    align-items: center;
+.header{
+    border-bottom: 1px solid #E2E8F0;
+}
+.navbar {
+    display: flex;
     justify-content: space-between;
-    z-index: 800;
-    transform: all .3s;
+    align-items: center;
+    padding: 1rem 1.5rem;
 }
 
-/* CSS for logo */
-header .logo {
-    font-weight: bolder;
-    font-family: Jost;
-    font-size: 35px;
-    color: #485460;
-}
-
-/* CSS for nav menus including li alone*/
-header .navbar ul li{
-    list-style: none;
-    position: relative;
-    float: left;
-    padding: 0 10px;
-
-}
-
-/* CSS for nav menus including all */
 header .navbar ul li a{
 
     font-size: 19px;
@@ -76,35 +72,53 @@ header .navbar ul li a{
     font-weight: bolder;
     font-family: Abel;
 }
-
-/* Css for hovering */
 header .navbar ul li a:hover{
     color: #ff6b6b;
     /*background : #ced6e0;*/
 }
-
-/* CSS for categories -- sub categories*/
-header .navbar ul li ul{
-    position: absolute;
-    left: 0;
-    width:200px;
-    background-color: #fff;
+.hamburger {
     display: none;
-    opacity: 80%;
-    border-radius: 0.4rem;
 }
 
-/* CSS for sub categories - divider lines*/
-header .navbar ul li ul li{
-    width: 100%;
-    border-top: 0.2px solid rgba(0,0,0,.1);
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
 }
 
-/* CSS for subcategories -- hovering*/
-header .navbar ul li:focus-within > ul,
-header .navbar ul li:hover > ul{
-    display: initial;
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.nav-item {
+    margin-left: 5rem;
+}
+
+.nav-link{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #475569;
+}
+
+.nav-link:hover{
+    color: #482ff7;
+}
+
+.nav-logo {
+    font-size: 2.1rem;
+    font-weight: 500;
+    color: #482ff7;
+}
+
+
+
+
 
 #main_head{
     font-family: Poppins;
@@ -286,3 +300,47 @@ button{
     color:#000000;
     background-color:#FFFFFF;
     }
+
+    @media only screen and (max-width: 600px) {
+        .nav-menu {
+            position: fixed;
+            left: -100%;
+            top: 5rem;
+            flex-direction: column;
+            background-color: #fff;
+            width: 100%;
+            border-radius: 10px;
+            text-align: center;
+            transition: 0.3s;
+            box-shadow:
+                0 10px 27px rgba(0, 0, 0, 0.05);
+        }
+    
+        .nav-menu.active {
+            left: 0;
+        }
+    
+        .nav-item {
+            margin: 2.5rem 0;
+        }
+    
+        .hamburger {
+            display: block;
+            cursor: pointer;
+        }
+
+        .hamburger.active .bar:nth-child(2) {
+            opacity: 0;
+        }
+    
+        .hamburger.active .bar:nth-child(1) {
+            transform: translateY(8px) rotate(45deg);
+        }
+    
+        .hamburger.active .bar:nth-child(3) {
+            transform: translateY(-8px) rotate(-45deg);
+        }
+    
+    
+    }
+    

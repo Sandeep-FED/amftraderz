@@ -12,23 +12,29 @@
 </head>
 
   <body>
-      <header>
+      <header class="header">
+        <nav class="navbar">
           <a href = "/index" class= "logo">AMFTraderz</a>
           <!--  Navbar Section -->
-          <nav class="navbar">
-              <ul>
-                <li><a href = "#">Home</a></li>
-                <li><a href = "#">Categories <i style="font-size:18px" class="fa">&#xf0d7;</i></a>
-                    <ul>
-                        <li><a href="#">Blogs</a></li>
-                        <li><a href="#">Services</a></li>
-                    </ul>
+              <ul class="nav-menu">
+                <li class="nav-item">
+                  <a href = "/index.html">Home</a>
                 </li>
-                <li><a href = "/About">About</a></li>
-                <li><a href = "/Contact">Contact Us</a></li>
+                <li class="nav-item"> 
+                  <a href = "/About.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a href = "/Contact.html">Contact Us</a>
+                </li>
             </ul>
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
             </nav>
       </header>
+
             <!-- Navbar section Ends here -->
 
             <!-- Description section begins here-->
@@ -117,7 +123,7 @@
                  <h3 class="post-title">Market Glimpse</h3>
                  <div class="post-meta">Posted on 21th June 2021, Time: 3.30PM</div>
                  <div class="post-body"></div>
-                  <p>
+                  <p class="text">
                     <ul id="pad">
                       <li>
                         As per my earlier view Nifty has formed long legged doji in the daily time frame.
@@ -139,7 +145,7 @@
                       <li>Nifty ended with bullish candle.</li>
                     </ul>
                     <br>
-                    <span id="dots"></span><b>Observation:</b><span id="more">
+                    <span class="Moretext">
                       <ul id="pad">
                         <li>
                           Though the Asian ended in negative note  but nifty ended with positive, In the last 3 trading session Nifty opened with big down and sharply recovered today. Where every one are in bearish and mixed view . Especially retailers and it will be surprising today.
@@ -169,6 +175,8 @@ Andrews joseph<br>
 <br>
 <b>Disclaimer: This is only for training and educational purpose . We don't recommend anyone to trade based on our information. Please consult your financial advisor.</b>
                     </span></p>
+                    </span><b>Observation:</b><span id="more">
+                    
                   <button onclick="myFunction()" id="myBtn">Read more</button>
                   
                 </div>
