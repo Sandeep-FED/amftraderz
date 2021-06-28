@@ -151,8 +151,8 @@ h2{
 
 .blogpost-card .thumbnail-image .post-labels{
     position: absolute;
-    top: 16px;
-    left: 16px;
+    top: 255px;
+    left: 10px;
     background: #fcfcfc;
     padding: 8px 10px;
     border-radius: 10px;
@@ -174,7 +174,7 @@ h2{
 
 .blogpost-card{
     padding-bottom: 50px;
-    border-bottom: 1px solid #bbafaf;
+    border-bottom: 1px solid #000000;
     padding-top: 25px;
 }
 .blogpost-card h3{
@@ -201,15 +201,6 @@ h2{
 #pad{
     padding-left: 20px;
 }
-
-
-
-
-
-
-
-
-
 
 
 
