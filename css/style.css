@@ -145,7 +145,7 @@ h2{
 .blogpost-card .thumbnail-image > img {
     width: 100%;
     height: 260px;
-    object-fit: cover;
+    object-fit: unset;
 }
 
 .blogpost-card .thumbnail-image .post-labels{
@@ -191,10 +191,15 @@ h2{
     margin-bottom: 24px;
 }
 
+#myBtn{
+    color: #000;
+}
 /* Blog Section for CSS ends here */
 
 
-
+#pad{
+    padding-left: 20px;
+}
 
 
 
