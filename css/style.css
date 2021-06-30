@@ -23,7 +23,6 @@
     box-sizing: border-box;
     font-family: "Jost", Helvetica, "Abel", "Poppins";
     text-decoration: none;
-    text-transform: capitalize;
 }
 
 .wrapper{
@@ -117,9 +116,6 @@ header .navbar ul li a:hover{
 }
 
 
-
-
-
 #main_head{
     font-family: Poppins;
     display: block;
@@ -206,10 +202,10 @@ h2{
     margin-left: 24px;
     margin-bottom: 24px;
 }
-
+/*
 #myBtn{
     color: #000;
-}
+}*/
 /* Blog Section for CSS ends here */
 
 
@@ -278,7 +274,7 @@ footer {
 
 
   
-/* Read More Button */
+/* Read More Button 
 
 button{
     display:inline-block;
@@ -299,9 +295,9 @@ button{
     button:hover{
     color:#000000;
     background-color:#FFFFFF;
-    }
+    }*/
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 768px) {
         .nav-menu {
             position: fixed;
             left: -100%;
@@ -312,8 +308,7 @@ button{
             border-radius: 10px;
             text-align: center;
             transition: 0.3s;
-            box-shadow:
-                0 10px 27px rgba(0, 0, 0, 0.05);
+            box-shadow:0 10px 27px rgba(0, 0, 0, 0.05);
         }
     
         .nav-menu.active {
@@ -340,7 +335,43 @@ button{
         .hamburger.active .bar:nth-child(3) {
             transform: translateY(-8px) rotate(-45deg);
         }
-    
-    
+
+        .wrapper {
+            flex-direction: column;
+        }
+        #blog-head{
+            position: absolute;
+            flex-direction: column;
+            
+        }
+        .blogpost-card .thumbnail-image > img {
+            height: 100%;
+            width: 100%;
+        }
+        .blogpost-card .thumbnail-image{
+            position: absolute;
+            flex-direction: column;
+        }
+
+        .blogpost-card .thumbnail-image .post-labels{
+            position: absolute;
+            flex-direction: column;
+        }
+        .blogpost-card .thumbnail-image .post-labels a{
+            position:absolute;
+            flex-direction:column;
+        }
+        .blogpost-card h3{
+            flex-direction: column;
+            position:absolute;
+        }
+        .blogpost-card .post-meta{
+            position:absolute;
+            flex-direction:column;
+    }
+    .responsive .pad{
+        position: absolute;
+        flex-direction:column;
     }
     
+}
