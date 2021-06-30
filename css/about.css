@@ -193,7 +193,7 @@ p{
         height: 50px;
         border-radius: 20%;
         position: absolute;
-        margin-left: 90px;
+        margin-left: 60px;
         margin-top:10px
     }
     .inner-container {
@@ -203,7 +203,7 @@ p{
         flex-direction:column ;
         font-size: 20px;
         margin:0 auto;
-        padding: 100% 50px;
+        padding: 110% 50px;
         text-align:justify;
     }
 
@@ -211,7 +211,7 @@ p{
     #client-name {
         text-align: justify;
         padding-left: 104%;
-        margin: 3% auto;
+        margin: 5% auto;
         font-size:  20px;
     }
     #fix-ourdevelopers{
