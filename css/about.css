@@ -170,7 +170,7 @@ p{
 
 /* Responsive design section */
 
-@media screen and (max-width: 900px){
+@media (max-width: 991px){
     #spacing{
         padding-bottom: 8%;
     }

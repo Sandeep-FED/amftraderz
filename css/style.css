@@ -297,7 +297,7 @@ button{
     background-color:#FFFFFF;
     }*/
 
-    @media only screen and (max-width: 768px) {
+    @media (max-width: 991px) {
         .nav-menu {
             position: fixed;
             left: -100%;
