@@ -26,6 +26,7 @@
 }
 .contact .content h2
 {
+    font-family: Jost;
     font-size: 76px;
     text-shadow: 25px;
     font-weight: bolder;
@@ -83,6 +84,7 @@
 }
 .container .contactInfo .box .text h3
 {
+    font-family: Jost;
     font-weight: bold;
     color: #064d94;
 }
