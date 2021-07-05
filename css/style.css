@@ -283,7 +283,7 @@ footer {
             top: 5rem;
             flex-direction: column;
             background-color: #fff;
-            width: auto;
+            width: 100%;
             border-radius: 10px;
             text-align: center;
             transition: 0.3s;
