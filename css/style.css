@@ -331,7 +331,7 @@ footer {
         .blogpost-card .thumbnail-image > img{
             width: 330px;
             height: 150px;
-            margin: 0 -80px;
+            margin: 0 -90px;
             object-fit:unset;
         }
         .blogpost-card .thumbnail-image .post-labels{
