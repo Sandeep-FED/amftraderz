@@ -348,9 +348,11 @@ footer {
         }
         .blogpost-card .post-body{
             padding-top: 10px;
-            margin-left: -70px;
+            width: 40%;
+            margin-left: -90px;
             font-size:15px;
-            width: 45%;
+            display: flex;
+            flex-direction: column;
         }
         .line{
             width: 100%;
