@@ -323,7 +323,7 @@ footer {
             padding-left: -250px;
         }
         .blogpost-card .thumbnail-image > img{
-            width: 350px;
+            width: 370px;
             height: 150px;
             margin: 0 -75px;
             object-fit:unset;
@@ -346,9 +346,9 @@ footer {
         }
         .blogpost-card .post-body{
             padding-top: 10px;
-            margin-left: -60px;
+            margin-left: -66px;
             font-size:15px;
-            width: 40%;
+            width: 45%;
         }
     
     }
