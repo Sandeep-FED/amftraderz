@@ -275,7 +275,7 @@ footer {
   
 /* Responsive design */
 
-    @media (max-width: 991px) {
+    @media (max-width: 800px) {
         .nav-menu {
             position: fixed;
             left: -100%;
