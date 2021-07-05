@@ -353,7 +353,7 @@ footer {
         .blogpost-card .post-body{
             padding-top: 10px;
             width: 40%;
-            margin-left: -100px;
+            margin-left: -120px;
             font-size:15px;
             display: flex;
             flex-direction: column;
