@@ -183,12 +183,6 @@ h2{
     font-weight:bold;
     text-transform: uppercase;
 }
-
-.blogpost-card{
-    padding-bottom: 50px;
-    border-bottom: 1px solid #000000;
-    padding-top: 25px;
-}
 .blogpost-card h3{
     font-family: "Abel";
     font-size: 36px;
@@ -202,6 +196,12 @@ h2{
     padding: 4px 16px;
     margin-left: 24px;
     margin-bottom: 24px;
+}
+
+.line{
+    padding-bottom: 20px;
+    border-bottom: 1.8px solid #000;
+    margin-bottom: 30px;
 }
 /*
 #myBtn{
@@ -282,7 +282,7 @@ footer {
             top: 5rem;
             flex-direction: column;
             background-color: #fff;
-            width: 100%;
+            width: auto;
             border-radius: 10px;
             text-align: center;
             transition: 0.3s;
@@ -321,6 +321,7 @@ footer {
     @media  (max-width:991px) {
         .blogpost-card .thumbnail-image{
             padding-left: -250px;
+            width:auto;
         }
         .blogpost-card .thumbnail-image > img{
             width: 370px;
@@ -350,36 +351,42 @@ footer {
             font-size:15px;
             width: 45%;
         }
-        footer{
-            width: auto;
+        .line{
+            width: 100%;
+            margin-bottom: 40px;
         }
-        #logo{
-
-            margin-left: -410px;
-            height: 90px;
-            width: 90px;
-            margin-top: -100px;
-        }
-        .footer-center{
-            margin-left:-820px;
-        }
-        footer .list-title{
-            margin-left:-490px;
-        }
-        footer .social-icons{
-            display: flex;
-            flex-direction: column;
-            margin-left: -470px;
-            width: 50px;
-            height: 140px;
-        }
-        footer .social-icons img{
-            margin-left:-5px;
-            border-radius: 15px;
-        }
-        .wrap{
-            margin: 50px -650px;
-            
+        @media  (max-width:768px){
+            footer{
+                width: 100.5%;
+            }
+            #logo{
+    
+                margin-left: -410px;
+                height: 90px;
+                width: 90px;
+                margin-top: -100px;
+            }
+            .footer-center{
+                margin-left:-820px;
+            }
+            footer .list-title{
+                margin-left:-490px;
+            }
+            footer .social-icons{
+                display: flex;
+                flex-direction: column;
+                margin-left: -470px;
+                width: 50px;
+                height: 140px;
+            }
+            footer .social-icons img{
+                margin-left:-5px;
+                border-radius: 15px;
+            }
+            .wrap{
+                margin: 50px -650px;
+                
+            }
         }
     }
     
