@@ -320,12 +320,15 @@ footer {
     }
     }
     @media  (max-width:750px) {
+        .posts-wrapper h2{
+            margin-left:-55px;
+        }
         .blogpost-card .thumbnail-image{
             padding-left: -250px;
             width:auto;
         }
         .blogpost-card .thumbnail-image > img{
-            width: 370px;
+            width: 330px;
             height: 150px;
             margin: 0 -80px;
             object-fit:unset;
@@ -373,7 +376,7 @@ footer {
                 margin-left:-820px;
             }
             footer .list-title{
-                margin-left:-490px;
+                margin-left:-500px;
             }
             footer .social-icons{
                 display: flex;
