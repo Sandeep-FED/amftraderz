@@ -275,7 +275,7 @@ footer {
   
 /* Responsive design */
 
-    @media (max-width: 990px) {
+    @media (max-width: 768px) {
         .nav-menu {
             position: fixed;
             left: -100%;
@@ -317,8 +317,8 @@ footer {
         position: absolute;
         flex-direction:column;
     }
-
-    @media  (max-width:990px) {
+    }
+    @media  (max-width:900px) {
         .blogpost-card .thumbnail-image{
             padding-left: -200px;
         }
@@ -352,4 +352,4 @@ footer {
         }
     
     }
-    }
+    
