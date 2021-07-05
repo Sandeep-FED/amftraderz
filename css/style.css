@@ -319,7 +319,7 @@ footer {
         flex-direction:column;
     }
     }
-    @media  (max-width:500px) {
+    @media  (max-width:750px) {
         .blogpost-card .thumbnail-image{
             padding-left: -250px;
             width:auto;
