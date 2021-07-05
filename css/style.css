@@ -323,9 +323,9 @@ footer {
             padding-left: -200px;
         }
         .blogpost-card .thumbnail-image > img{
-            width: 400px;
+            width: 350px;
             height: 150px;
-            margin: 0 -70px;
+            margin: 0 -75px;
             object-fit:unset;
         }
         .blogpost-card .thumbnail-image .post-labels{
@@ -342,11 +342,11 @@ footer {
             flex-direction: column;
         }
         .blogpost-card .post-meta{
-            margin-left: -50px;
+            margin-left: -52px;
         }
         .blogpost-card .post-body{
             padding-top: 10px;
-            margin-left: -55px;
+            margin-left: -60px;
             font-size:15px;
             width: 40%;
         }
