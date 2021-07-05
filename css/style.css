@@ -152,6 +152,7 @@ h2{
 }
 .blogpost-card .thumbnail-image{
     position: relative;
+    padding: 0 auto;
 }
 
 .blogpost-card .thumbnail-image > img {
@@ -271,31 +272,8 @@ footer {
   footer .footer-right p {
     margin-top: 20px;
   }
-
-
   
-/* Read More Button 
-
-button{
-    display:inline-block;
-    padding:0.35em 1.2em;
-    border:0.1em solid #FFFFFF;
-    margin:0 0.3em 0.3em 0;
-    border-radius:0.12em;
-    box-sizing: border-box;
-    text-decoration:none;
-    font-family:'Roboto',sans-serif;
-    font-weight:300;
-    color:#FFFFFF;
-    text-align:center;
-    transition: all 0.2s;
-    cursor:pointer;
-    }
-
-    button:hover{
-    color:#000000;
-    background-color:#FFFFFF;
-    }*/
+/* Responsive design */
 
     @media (max-width: 991px) {
         .nav-menu {
@@ -335,43 +313,43 @@ button{
         .hamburger.active .bar:nth-child(3) {
             transform: translateY(-8px) rotate(-45deg);
         }
-
-        .wrapper {
-            flex-direction: column;
-        }
-        #blog-head{
-            position: absolute;
-            flex-direction: column;
-            
-        }
-        .blogpost-card .thumbnail-image > img {
-            height: 100%;
-            width: 100%;
-        }
-        .blogpost-card .thumbnail-image{
-            position: absolute;
-            flex-direction: column;
-        }
-
-        .blogpost-card .thumbnail-image .post-labels{
-            position: absolute;
-            flex-direction: column;
-        }
-        .blogpost-card .thumbnail-image .post-labels a{
-            position:absolute;
-            flex-direction:column;
-        }
-        .blogpost-card h3{
-            flex-direction: column;
-            position:absolute;
-        }
-        .blogpost-card .post-meta{
-            position:absolute;
-            flex-direction:column;
-    }
     .responsive .pad{
         position: absolute;
         flex-direction:column;
     }
+
+    @media  (max-width:768px) {
+        .blogpost-card .thumbnail-image{
+            padding-left: -200px;
+        }
+        .blogpost-card .thumbnail-image > img{
+            width: 400px;
+            height: 150px;
+            margin: 0 -70px;
+            object-fit:unset;
+        }
+        .blogpost-card .thumbnail-image .post-labels{
+            margin:-90px;
+        }
+        .blogpost-card .thumbnail-image .post-labels a{
+            font-size: 12px;
+        }
+        .blogpost-card h3{
+            padding-top: 10px;
+            width: auto;
+            font-size: 25px;
+            margin-left: -70px;
+            flex-direction: column;
+        }
+        .blogpost-card .post-meta{
+            margin-left: -50px;
+        }
+        .blogpost-card .post-body{
+            padding-top: 10px;
+            margin-left: -55px;
+            font-size:15px;
+            width: 40%;
+        }
     
-}
+    }
+    }
