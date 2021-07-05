@@ -277,13 +277,14 @@ footer {
 /* Responsive design */
 
     @media (max-width: 750px) {
+        
         .nav-menu {
             position: fixed;
             left: -100%;
             top: 5rem;
             flex-direction: column;
             background-color: #fff;
-            width: 100%;
+            width: 50%;
             border-radius: 10px;
             text-align: center;
             transition: 0.3s;
